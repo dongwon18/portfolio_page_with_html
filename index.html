@@ -1,0 +1,694 @@
+<!--
+    Copyright 2022. Dongwon Kim All rights reserved.
+
+    File name: portfolio.html
+
+    Written by Dongwon Kim
+
+    Design own portfolio page
+    
+    Modification history
+        written by Dongwon Kim on Jan 21, 2022
+        modified by Dongwon Kim on April 25, 2022
+          modify project, career section
+          change few css design
+
+    Notice
+        using bootstrap5, google fonts, font awesome
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dongwon Kim</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+      deffer
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <aside>
+      <h2 class="nav-name"><a class="aside-a" href="#home">Dongwon Kim</a></h2>
+      <div class="contact-icon-wrapper">
+        <a href="https://github.com/dongwon18"
+          ><i class="aside-a fab fa-github"></i
+        ></a>
+        <a href="https://dongwon18.github.io"
+          ><i class="aside-a fas fa-blog"></i
+        ></a>
+      </div>
+      <div class="nav-wrapper">
+        <a class="nav-link aside-a" href="#home">Home</a>
+        <a class="nav-link aside-a" href="#about">About</a>
+        <a class="nav-link aside-a" href="#skill">Skills</a>
+        <a class="nav-link aside-a" href="#project">Project</a>
+        <a class="nav-link aside-a" href="#career">Career</a>
+      </div>
+    </aside>
+    <main>
+      <section id="home" class="section-wrapper">
+        <h1 class="title">Home</h1>
+        <h2 class="home-h2">
+          Hi <br />
+          I am Dongwon Kim, <br />interested in Embedded System
+        </h2>
+        <h3 class="home-h3">
+          Welcome to my portfolio page <br />Feel free to contact me!
+        </h3>
+        <div class="home-contact">
+          <ul class="home-contact-list">
+            <li><i class="far fa-envelope"></i> dongwonkim0218@gmail.com</li>
+            <li>
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/dongwon18"
+                >https://github.com/dongwon18</a
+              >
+            </li>
+            <li>
+              <i class="fas fa-blog"></i>
+              <a href="https://dongwon18.github.io"
+                >https://dongwon18.github.io</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <section id="about" class="section-wrapper">
+        <h1 class="title">About</h1>
+        <div class="about-wrapper">
+          <div class="about-img-wrapper">
+            <img src="./image/배경1.jpg" alt="figure" width="250px" />
+          </div>
+          <div class="about-detail-wrapper">
+            <ul class="about-detail">
+              <li>
+                <h5 class="subtitle">Location</h5>
+                <p class="plain-text">South Korea</p>
+              </li>
+              <li>
+                <h5 class="subtitle">Major</h5>
+                <p class="plain-text">
+                  Electronic Electrical Engineering <br />
+                  Software Engineering
+                </p>
+              </li>
+              <li>
+                <h5 class="subtitle">Skilled at</h5>
+                <p class="plain-text">Embedded System</p>
+              </li>
+              <li>
+                <h5 class="subtitle">Hobbies</h5>
+                <p class="plain-text">
+                  Experiencing New Things, Outdoor Activities
+                </p>
+              </li>
+              <li>
+                <h5 class="subtitle">Interested in</h5>
+                <p class="plain-text">
+                  Especially about Smart Factory, Cloud IoT Systems etc
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="skill" class="section-wrapper">
+        <h1 class="title">Skills & Experience</h1>
+        <div class="skill-lang">
+          <div id="py" class="skill-lang-text">Python</div>
+          <div id="c" class="skill-lang-text">C</div>
+          <div id="cpp" class="skill-lang-text">C++</div>
+          <div id="js" class="skill-lang-text">Javascript</div>
+          <div id="asm" class="skill-lang-text">Assembly</div>
+          <div id="v" class="skill-lang-text">Verilog</div>
+          <div id="vhdl" class="skill-lang-text">VHDL</div>
+          <div id="sql" class="skill-lang-text">SQL</div>
+        </div>
+        <div class="skill-tag">
+          <h4 class="subtitle">Skills</h4>
+          <div class="tags">
+            <div class="skill-tag-text">Git Hub</div>
+            <div class="skill-tag-text">RaspberryPi</div>
+            <div class="skill-tag-text">Arduino</div>
+            <div class="skill-tag-text">AWS IoT Core</div>
+            <div class="skill-tag-text">8051 Microcontroller</div>
+            <div class="skill-tag-text">FPGA</div>
+            <div class="skill-tag-text">Linux Kernel</div>
+            <div class="skill-tag-text">Fundamental circuit</div>
+            <div class="skill-tag-text">PyTorch</div>
+            <div class="skill-tag-text">Keras</div>
+            <div class="skill-tag-text">Numpy</div>
+            <div class="skill-tag-text">OpenCV</div>
+            <div class="skill-tag-text">HTML</div>
+            <div class="skill-tag-text">CSS</div>
+            <div class="skill-tag-text">Bootstrap</div>
+            <div class="skill-tag-text">Firebase</div>
+            <div class="skill-tag-text">3D printing</div>
+            <div class="skill-tag-text">PyQt</div>
+            <div class="skill-tag-text">Markdown</div>
+            <div class="skill-tag-text">Makefile</div>
+            <div class="skill-tag-text">Vim</div>
+          </div>
+        </div>
+        <div class="skill-progress">
+          <ul class="skill-progress-list">
+            <li>
+              <h5 class="subtitle">IoT</h5>
+              <div class="progress">
+                <div
+                  class="inner-progress"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </li>
+            <li>
+              <h5 class="subtitle">Embedded System</h5>
+              <div class="progress">
+                <div
+                  class="inner-progress"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </li>
+            <li>
+              <h5 class="subtitle">Deep Learning</h5>
+              <div class="progress">
+                <div
+                  class="inner-progress"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  75%
+                </div>
+              </div>
+            </li>
+            <li>
+              <h5 class="subtitle">Frontend</h5>
+              <div class="progress">
+                <div
+                  class="inner-progress"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </li>
+            <li>
+              <h5 class="subtitle">Backend</h5>
+              <div class="progress">
+                <div
+                  class="inner-progress"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  60%
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-detail">
+          <ul class="skill-detail-list">
+            <li>
+              <h4 class="subtitle">IoT</h4>
+              <p class="plain-text">
+                Understand characteristics of
+                <span class="text-highlight">Cloud IoT</span> <br />
+                Can make Cloud IoT System with
+                <span class="text-highlight">AWS IoT Core</span> <br />
+                Know Networking of IoT
+              </p>
+            </li>
+            <li>
+              <h4 class="subtitle">Embedded System</h4>
+              <p class="plain-text">
+                Experienced
+                <span class="text-highlight">FPGA programming</span> with VHDL
+                and Verilog <br />
+                Can use
+                <span class="text-highlight">RaspberryPi, Arduino</span> <br />
+                <span class="text-highlight">8051 Microcontroller</span>
+                development with Assembly Language
+              </p>
+            </li>
+            <li>
+              <h4 class="subtitle">Deep Learning</h4>
+              <p class="plain-text">
+                Can build dataset and model with PyTorch, Keras <br />
+                Done Ocean Debris Indicating AI Project, Smart Factory
+                Projects
+              </p>
+            </li>
+            <li>
+              <h4 class="subtitle">Frontend</h4>
+              <p class="plain-text">
+                Running own blog by modifying template using Github page <br />
+                Build portfolio page <br />
+                Make toy projects with open API
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <hr />
+      <section id="project" class="section-wrapper">
+        <h1 class="title">Projects</h1>
+        <p class="plain-text">
+          For details, please visit linked github repository!
+        </p>
+        <div class="project-card-wrapper">
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                AWS IoT Sensor Monitoring
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                AWS IoT Core, RaspberryPi
+              </h6>
+              <p class="project-text card-text">
+                Make Cloud IoT system testbed with RaspberryPi, AWS IoT Core
+              </p>
+              <a
+                href="https://dongwon18.github.io/categories/#aws-iot"
+                class="project-icon card-link"
+                ><i class="fas fa-blog"></i
+              ></a>
+              <a
+                href="https://github.com/dongwon18/AWS_IoT_SensorMonitoring"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">Predictive Maintenance</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                Deep learning, Smart Factory
+              </h6>
+              <p class="project-text card-text">
+                Using open dataset, build simple model and compare the result
+              </p>
+
+              <a
+                href="https://github.com/dongwon18/Predictive_Maintenance"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">False Alarm Detection</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                Deep learning, Smart Factory
+              </h6>
+              <p class="project-text card-text">
+                Using open dataset, build simple model and compare the result to
+                prevent improper alarm
+              </p>
+
+              <a
+                href="https://github.com/dongwon18/False_Alarm_Detection"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                SSD simulator testing shell
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                shell programming, SSD simualtor, SSd test program, linux, C,
+              </h6>
+              <p class="project-text card-text">
+                make SSD simulator, testing program with testing scenario using
+                shell
+              </p>
+              <a
+                href="https://github.com/dongwon18/SSD_simulator_testing_shell"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                socket programming with simple DB
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                server, client, thread, shell programming, linux, C
+              </h6>
+              <p class="project-text card-text">
+                socket programming with server and client, client saves
+                variables to server with shell
+              </p>
+              <a
+                href="https://github.com/dongwon18/server_client_DB_proj"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">MODBUS-TCP Library</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                Network, Implement library
+              </h6>
+              <p class="project-text card-text">
+                Implement MODBUS TCP libarary, communicate using MODBUS-TCP
+                protocol
+              </p>
+
+              <a
+                href="https://github.com/dongwon18/MODBUS-TCP"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">DenseNet with CIFAR10</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                DenseNet, CIFAR10, PyTorch, accuracy 93%
+              </h6>
+              <p class="project-text card-text">
+                build, train DenseNet with CIFAR10
+              </p>
+              <a
+                href="https://github.com/dongwon18/DenseNet_CIFAR10"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">Image Captioning</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                Image Captioning, flickr-8k, PyTorch
+              </h6>
+              <p class="project-text card-text">
+                build, train basic Image Captioning model with flickr-8k from
+                kaggle
+              </p>
+              <a
+                href="https://github.com/dongwon18/ImageCaptioning"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">GAN</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                GAN, MNIST, PyTorch
+              </h6>
+              <p class="project-text card-text">
+                build, train basic GAN model with MNIST
+              </p>
+              <a
+                href="https://github.com/dongwon18/ImageCaptioning"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                OpenCV library implementation1
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                OpenCV, Numpy, Python
+              </h6>
+              <p class="project-text card-text">
+                implement iamge_filtering, cross correlation, Gaussian filter,
+                Edge detection, Corner detection , NMS
+              </p>
+              <a
+                href="https://github.com/dongwon18/OpenCV_implementation1"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                OpenCV library implementation2
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                OpenCV, Numpy, Python
+              </h6>
+              <p class="project-text card-text">
+                implement 2D transformation, hamming distance, homography,
+                panorama with RANSAC
+              </p>
+              <a
+                href="https://github.com/dongwon18/OpenCV_implementation2"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                OpenCV library implementation3
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                OpenCV, Numpy, Python
+              </h6>
+              <p class="project-text card-text">
+                implement fundamental matrix, eight point algorithm, epipolar
+                line
+              </p>
+              <a
+                href="https://github.com/dongwon18/OpenCV_implementation3"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                OpenCV library implementation4
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                OpenCV, Numpy, Python, Sikit-learn
+              </h6>
+              <p class="project-text card-text">
+                implement image descriptors, BOW, KMean
+              </p>
+              <a
+                href="https://github.com/dongwon18/OpenCV_implementation4"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                Code Optimization with gprof
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                code optimization, gprof, C, linux
+              </h6>
+              <p class="project-text card-text">
+                Optimize previously written code using gprof and analyze the
+                result
+              </p>
+              <a
+                href="https://github.com/dongwon18/Code_Optimization_With_gprof"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">mips simulator</h5>
+              <h6 class="project-tag card-subtitle mb-2">MIPS, Assembly, C</h6>
+              <p class="project-text card-text">
+                Implement MIPS simulator that read binary file and give result
+                in C
+              </p>
+
+              <a
+                href="https://github.com/dongwon18/mips_simulator"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">cache simulator</h5>
+              <h6 class="project-tag card-subtitle mb-2">cache, C</h6>
+              <p class="project-text card-text">
+                Implement cache simulator that shows the number of cache miss
+                and memory write in C
+              </p>
+              <a
+                href="https://github.com/dongwon18/cache_simulator"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                MFQ Scheduling Simulation
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                multi level feedback queue, C, linux
+              </h6>
+              <p class="project-text card-text">Implement MFQ simulator in C</p>
+              <a
+                href="https://github.com/dongwon18/MFQ_Scheduling_Simulation"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">Deadlock Detector</h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                deadlock detection, graph reduction, C, linux
+              </h6>
+              <p class="project-text card-text">
+                Implement deadlock detector in C
+              </p>
+              <a
+                href="https://github.com/dongwon18/Deadlock_Detection"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="card" style="width: 25rem">
+            <div class="card-body">
+              <h5 class="project-title card-title">
+                Virtual Memory Management
+              </h5>
+              <h6 class="project-tag card-subtitle mb-2">
+                virtual memory, page replacement, C, linux
+              </h6>
+              <p class="project-text card-text">
+                Implement deadlock detector in C
+              </p>
+              <a
+                href="https://github.com/dongwon18/Virtual_Memory_Management"
+                class="project-icon card-link"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="career" class="section-wrapper">
+        <h1 class="title">Career</h1>
+        <ul class="career-detail">
+          <li>
+            <h5 class="subtitle">삼성 청년 SW 아카데미(SSAFY)</h5>
+            <p class="plain-text">
+              (진행중)<br />
+              January, 03, 2022 ~
+            </p>
+          </li>
+          <li>
+            <h5 class="subtitle">지엠아이티(주)</h5>
+            <p class="plain-text">
+              하계 인턴<br />
+              Jun 07, 2021 ~ August 27, 2021
+            </p>
+          </li>
+          <li>
+            <h5 class="subtitle">(주)사이버테크프랜드</h5>
+            <p class="plain-text">
+              스마트팩토리UNIC 연계 현장실습<br />
+              December 21, 2020 ~ February 19, 2021
+            </p>
+          </li>
+          <li>
+            <h5 class="subtitle">SUNGKYUNKWAN University</h5>
+            <p class="plain-text">
+              Valedictorian<br />
+              March 01, 2018 ~ February 16, 2022
+            </p>
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <footer>© 2022 Dongwon Kim</footer>
+      <div class="top-button">
+        <a href="#home">▲<br />Top</a>
+      </div>
+    </main>
+  </body>
+</html>
